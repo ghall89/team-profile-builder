@@ -31,11 +31,11 @@ test ('gets engineer email', () => {
 test ('gets engineer role', () => {
 	const engineer = new Engineer('Steve', 'steve@company.com', 'steve123');
 	
-	expect(engineer.getRole()).toBe('Engineer');
+	expect(engineer.getRole()).toBe('Role: Engineer');
 });
 
 test ('gets engineer github', () => {
 	const engineer = new Engineer('Steve', 'steve@company.com', 'steve123');
 	
-	expect(engineer.getGithub()).expect('GitHub: steve123');
+	expect(engineer.getGithub()).toBe('GitHub: steve123');
 })
