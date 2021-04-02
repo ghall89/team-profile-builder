@@ -1,5 +1,6 @@
-const Employee = require('./lib/Employee')
+const userInput = require('./lib/getInput')
 
-const employee = new Employee('Steve', 'steve@company.com');
+userInput();
 
-console.log(employee.getRole());
+// -- Render to HTML --
+	//Note: maybe this should be a separate js file?
