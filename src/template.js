@@ -1,3 +1,5 @@
+// HTML template used by 'renderHTML.js'
+
 const template = (managerHTML, employeeHTML, engineerHTML, internHTML) => {
 	return `
 	
