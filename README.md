@@ -4,6 +4,8 @@
 
 A command line app built with Node.js to generate an HTML file of team member profiles categorized by role. 'Inquirer' is used for user input, and 'fs' is used to write the final output to a file. The final page that's generated uses UIKit for styling and layout. 
 
+[Video Demo](https://drive.google.com/file/d/1NJGv6ICaxxlNTfZ7LMhJ32Xcl1ZXQRGf/view?usp=sharing)
+
 ![](./screenshot.png)
 
 ## Table of Contents
