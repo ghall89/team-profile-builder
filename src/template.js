@@ -26,7 +26,6 @@ const template = (managerHTML, employeeHTML, engineerHTML, internHTML) => {
 				<div class="uk-navbar-left">
 						<ul class="uk-navbar-nav">
 								<li><a href="#managers" uk-scroll offset="35">Managers</a></li>
-								<li><a href="#employees" uk-scroll offset="35">Employees</a></li>
 								<li><a href="#engineers" uk-scroll offset="35">Engineers</a></li>
 								<li><a href="#interns" uk-scroll offset="35">Interns</a></li>
 						</ul>
