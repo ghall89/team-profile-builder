@@ -39,11 +39,6 @@ const template = (managerHTML, employeeHTML, engineerHTML, internHTML) => {
 			${managerHTML}
 		</section>
 		
-		<section class="uk-section-muted uk-padding" id="employees">
-			<h2>Employees</h2>
-			${employeeHTML}
-		</section>
-		
 		<section class="uk-section-muted uk-padding" id="engineers">
 			<h2>Engineers</h2>
 			${engineerHTML}
