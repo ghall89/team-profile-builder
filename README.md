@@ -2,7 +2,7 @@
 ![](https://img.shields.io/github/license/ghall89/team-profile-builder?style=for-the-badge)
 ## Description
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illum sed eaque, fuga amet alias quod aspernatur vel nesciunt corporis ad quibusdam, libero itaque quas fugiat tenetur aliquam. Earum, eum!
+A command line app built with Node.js to generate an HTML file of team member profiles categorized by role. 'Inquirer' is used for user input, and 'fs' is used to write the final output to a file. The final page that's generated uses UIKit for styling and layout. 
 
 ![](./screenshot.png)
 
@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illum sed eaque, 
 
 - From the repo directory in your terminal run 'node index.js
 - Follow the on-screen prompts
-- Get the HTML from the 'dist' folder
+- Get 'index.html' from the 'dist' folder
 
 ## License
 

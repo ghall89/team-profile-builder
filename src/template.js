@@ -1,3 +1,5 @@
+// HTML template used by 'renderHTML.js'
+
 const template = (managerHTML, employeeHTML, engineerHTML, internHTML) => {
 	return `
 	
@@ -35,11 +37,6 @@ const template = (managerHTML, employeeHTML, engineerHTML, internHTML) => {
 		<section class="uk-section-muted uk-padding" id="managers">
 			<h2>Managers</h2>
 			${managerHTML}
-		</section>
-		
-		<section class="uk-section-muted uk-padding" id="employees">
-			<h2>Employees</h2>
-			${employeeHTML}
 		</section>
 		
 		<section class="uk-section-muted uk-padding" id="engineers">
